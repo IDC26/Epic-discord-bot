@@ -1,14 +1,3 @@
-#!/usr/bin/python3
-
-# =============================================================================
-#                      EpicStore v1.0 www.github.com/wrrulos
-#              Discord bot to keep up with free games from Epic Games
-#                               Made by wRRulos
-#                                  @wrrulos
-# =============================================================================
-
-# Any error report it to my discord please, thank you. 
-# Programmed in Python 3.10.8
 from datetime import datetime
 import requests
 import discord
