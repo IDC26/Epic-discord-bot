@@ -87,6 +87,8 @@ def get_games():
     store_games = r_json['data']['Catalog']['searchStore']['elements']  # Games
 
     for num, game in enumerate(store_games):
+        if game['promotions'] is None:
+            continue
         num = str(num)
         game_info = [game['title'], game['description']]
         if game['keyImages'][0]['type'] == 'VaultClosed':
